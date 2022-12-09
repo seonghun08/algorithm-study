@@ -20,7 +20,7 @@ public class 배열회전시키기 {
         return answer;
     }
 
-    public ArrayList another_solution(int[] numbers, String direction) {
+    public ArrayList solution2(int[] numbers, String direction) {
         ArrayList<Integer> answer = new ArrayList<>();
         for (int i = 0; i < numbers.length; i++) {
             answer.add(numbers[i]);

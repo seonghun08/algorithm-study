@@ -13,7 +13,7 @@ public class 인덱스바꾸기 {
         return Arrays.stream(split).collect(Collectors.joining());
     }
 
-    public String another_solution(String str, int num1, int num2) {
+    public String solution2(String str, int num1, int num2) {
         String answer = "";
         for (int i = 0; i < str.length(); i++) {
             if (i == num1) {

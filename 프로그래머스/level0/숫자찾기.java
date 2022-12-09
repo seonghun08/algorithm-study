@@ -11,7 +11,7 @@ public class 숫자찾기 {
         return answer < 0 ? -1 : answer + 1 ;
     }
 
-    public int another_solution(int num, int k) {
+    public int solution2(int num, int k) {
         int answer = -1;
         int[] split = Arrays.stream(String.valueOf(num).split(""))
                 .mapToInt(Integer::parseInt)

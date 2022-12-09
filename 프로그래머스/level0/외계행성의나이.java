@@ -43,8 +43,7 @@ public class 외계행성의나이 {
         return answer;
     }
 
-    public String another_solution(int age) {
-
+    public String solution2(int age) {
         String answer = "";
         char[] chars = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'};
         while (age > 0) {
