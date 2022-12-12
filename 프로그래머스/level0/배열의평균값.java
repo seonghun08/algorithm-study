@@ -1,5 +1,6 @@
 package level0;
 
+// 120817
 public class 배열의평균값 {
     public double solution(int[] numbers) {
         double result = 0;
