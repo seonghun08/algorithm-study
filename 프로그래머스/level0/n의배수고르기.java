@@ -10,11 +10,13 @@ public class n의배수고르기 {
 
     public int[] solution2(int n, int[] numList) {
         List<Integer> answer = new ArrayList<>();
+
         for(int num : numList){
             if(num % n == 0){
                 answer.add(num);
             }
         }
+
         return answer.stream().mapToInt(x -> x).toArray();
     }
 }
