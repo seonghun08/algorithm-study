@@ -1,5 +1,3 @@
-import java.util.Arrays;
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Ex1_문자찾기 {
@@ -22,11 +20,21 @@ public class Ex1_문자찾기 {
      */
     public int solution(String str, char ch) {
         int answer = 0;
-        for (int i = 0; i < str.length(); i++) {
-            if (str.toLowerCase().charAt(i) == Character.toLowerCase(ch)) {
+        str = str.toLowerCase();
+        ch = Character.toLowerCase(ch);
+
+//        for (int i = 0; i < str.length(); i++) {
+//            if (str.charAt(i) == ch) {
+//                answer++;
+//            }
+//        }
+
+        for (char c : str.toCharArray()) {
+            if (c == ch) {
                 answer++;
             }
         }
+
         return answer;
     }
 }
