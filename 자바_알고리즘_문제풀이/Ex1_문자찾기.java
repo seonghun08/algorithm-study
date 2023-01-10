@@ -3,15 +3,15 @@ import java.util.Scanner;
 public class Ex1_문자찾기 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String str1 = sc.next();
-        char ch = sc.next().charAt(0);
-        int count = 0;
-        for (int i = 0; i < str1.length(); i++) {
-            if (str1.toLowerCase().charAt(i) == Character.toLowerCase(ch)) {
-                count++;
-            }
+        String str = sc.next().toLowerCase();
+        char ch = Character.toLowerCase(sc.next().charAt(0));
+
+        int answer = 0;
+        for(char c : str.toCharArray()) {
+            if (c == ch) answer++;
         }
-        System.out.println(count);
+
+        System.out.println(answer);
     }
 
     /**
