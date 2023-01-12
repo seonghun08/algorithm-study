@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex_9숫자만추출 {
+public class Ex9_숫자만추출 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String str = in.next();
