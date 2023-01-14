@@ -1,3 +1,5 @@
+package String_문자열;
+
 import java.util.Scanner;
 
 public class Ex5_특정문자뒤집기 {

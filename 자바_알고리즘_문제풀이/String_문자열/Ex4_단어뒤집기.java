@@ -1,3 +1,5 @@
+package String_문자열;
+
 import java.util.*;
 
 public class Ex4_단어뒤집기 {

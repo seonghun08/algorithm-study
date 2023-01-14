@@ -1,3 +1,5 @@
+package String_문자열;
+
 import java.util.Scanner;
 
 public class Ex9_숫자만추출 {

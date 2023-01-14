@@ -1,3 +1,5 @@
+package String_문자열;
+
 import java.util.Scanner;
 
 public class Ex6_중복문자제거 {

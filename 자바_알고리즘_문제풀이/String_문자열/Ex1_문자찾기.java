@@ -1,3 +1,5 @@
+package String_문자열;
+
 import java.util.Scanner;
 
 public class Ex1_문자찾기 {

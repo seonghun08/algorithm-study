@@ -1,3 +1,5 @@
+package String_문자열;
+
 import java.util.Scanner;
 
 // found7, time: study; Yduts; emit, 7Dnuof

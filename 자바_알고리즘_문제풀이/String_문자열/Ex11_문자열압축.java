@@ -1,3 +1,5 @@
+package String_문자열;
+
 import java.util.*;
 
 public class Ex11_문자열압축 {
