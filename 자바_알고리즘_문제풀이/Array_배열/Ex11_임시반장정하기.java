@@ -53,7 +53,8 @@ public class Ex11_임시반장정하기 {
             }
             if (cnt > max) {
                 max = cnt;
-                answer = i;
+                // (index + 1)번째 학생 == n번째 학생
+                answer = i + 1;
             }
         }
 
