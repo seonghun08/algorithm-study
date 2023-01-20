@@ -28,7 +28,7 @@ public class Ex3_문장속단어 {
                 max = len;
                 answer = tmp;
             }
-            str = str.substring(pos+1);
+            str = str.substring(pos + 1);
         }
 
         if (str.length() > max) {
