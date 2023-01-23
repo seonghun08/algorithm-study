@@ -1,16 +1,15 @@
+package TwoPotinters_SlidingWindow_효율성;
+
 import java.util.*;
 
-public class Main {
+public class Ex6_최대길이연속부분수열 {
     public static int solution(int n, int k, int[] arr) {
         int answer = 0, lt = 0;
         int cnt = 0;
         for (int rt = 0; rt < n; rt++) {
             if (arr[rt] == 0) cnt++;
             while (cnt > k) {
-                int result = arr[lt++];
-                if (result == 0) {
-                    cnt--;
-                }
+                if (arr[lt++] == 0) cnt--;
             }
             answer = Math.max(answer, rt - lt + 1);
         }
