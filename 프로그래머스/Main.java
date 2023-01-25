@@ -1,17 +1,18 @@
 import java.util.*;
 
 public class Main {
-    public static char solution(int n, String s) {
-        char answer = ' ';
+    public static String solution(String s1, String s2) {
+        String answer = "YES";
+
 
         return answer;
     }
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        String s = in.next();
+        String s1 = in.next();
+        String s2 = in.next();
 
-        System.out.println(solution(n, s));
+        System.out.println(solution(s1, s2));
     }
 }
