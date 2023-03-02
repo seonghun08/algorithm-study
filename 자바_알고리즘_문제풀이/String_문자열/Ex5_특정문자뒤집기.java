@@ -25,4 +25,24 @@ public class Ex5_특정문자뒤집기 {
         }
         System.out.println(String.valueOf(chs));
     }
+
+    public static String solution(String str) {
+        String answer = "";
+
+        char[] cs = str.toCharArray();
+        int lt = 0, rt = cs.length - 1;
+
+        while (lt < rt) {
+            while (!Character.isAlphabetic(cs[lt])) lt++;
+            while (!Character.isAlphabetic(cs[rt])) rt--;
+
+            char tmp = cs[lt];
+            cs[lt] = cs[rt];
+            cs[rt] = tmp;
+
+            lt++;
+            rt--;
+        }
+        return String.valueOf(cs);
+    }
 }
