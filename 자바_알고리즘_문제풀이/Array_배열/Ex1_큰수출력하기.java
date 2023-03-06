@@ -1,6 +1,7 @@
 package Array_배열;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Ex1_큰수출력하기 {
     public static void main(String[] args) {

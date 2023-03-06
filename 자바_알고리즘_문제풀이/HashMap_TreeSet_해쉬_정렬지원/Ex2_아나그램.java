@@ -1,6 +1,7 @@
 package HashMap_TreeSet_해쉬_정렬지원;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Scanner;
 
 public class Ex2_아나그램 {
     public static String solution(String s1, String s2) {

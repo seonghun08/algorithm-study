@@ -1,6 +1,6 @@
 package String_문자열;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Ex11_문자열압축 {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package Array_배열;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Ex3_가위바위보 {
     public static void main(String[] args) {

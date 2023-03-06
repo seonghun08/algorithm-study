@@ -1,6 +1,6 @@
 package String_문자열;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Ex12_암호 {
     public static void main(String[] args) {

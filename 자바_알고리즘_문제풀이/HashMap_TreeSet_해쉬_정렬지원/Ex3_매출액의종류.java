@@ -1,6 +1,8 @@
 package HashMap_TreeSet_해쉬_정렬지원;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Scanner;
 
 public class Ex3_매출액의종류 {
     public static ArrayList<Integer> solution(int n, int k, int[] arr) {

@@ -1,6 +1,8 @@
 package level0;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 // 120905
 public class n의배수고르기 {

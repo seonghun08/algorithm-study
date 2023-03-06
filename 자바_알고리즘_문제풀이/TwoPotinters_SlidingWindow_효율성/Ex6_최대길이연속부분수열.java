@@ -1,6 +1,6 @@
 package TwoPotinters_SlidingWindow_효율성;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Ex6_최대길이연속부분수열 {
     public static int solution(int n, int k, int[] arr) {

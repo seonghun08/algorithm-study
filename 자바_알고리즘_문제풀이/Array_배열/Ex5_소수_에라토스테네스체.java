@@ -1,6 +1,6 @@
 package Array_배열;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Ex5_소수_에라토스테네스체 {
     public static void main(String[] args) {

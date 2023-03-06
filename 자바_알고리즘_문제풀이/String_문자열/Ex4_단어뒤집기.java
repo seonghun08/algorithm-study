@@ -1,6 +1,7 @@
 package String_문자열;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Ex4_단어뒤집기 {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package Array_배열;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Ex2_보이는학생 {
     public static void main(String[] args) {

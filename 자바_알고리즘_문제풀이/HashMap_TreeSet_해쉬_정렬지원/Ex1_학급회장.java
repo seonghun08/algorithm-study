@@ -1,6 +1,7 @@
 package HashMap_TreeSet_해쉬_정렬지원;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Scanner;
 
 public class Ex1_학급회장 {
     public static char solution(int n, String s) {

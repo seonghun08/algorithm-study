@@ -1,6 +1,7 @@
 package TwoPotinters_SlidingWindow_효율성;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Ex1_두배열합치기 {
     public static ArrayList<Integer> solution(int[] nArr, int[] mArr) {

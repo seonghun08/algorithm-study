@@ -1,6 +1,6 @@
 package TwoPotinters_SlidingWindow_효율성;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Ex4_연속부분수열 {
     public static int solution(int n, int m, int[] arr) {
