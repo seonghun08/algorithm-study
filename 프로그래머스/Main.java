@@ -1,16 +1,16 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
-    public static int solution(int n, int k, int[] arr) {
-        int answer = -1;
+    public static String solution(String str) {
+        String answer = "";
 
         return answer;
     }
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int n = Integer.parseInt(in.next());
-        int k = Integer.parseInt(in.next());
+        String str = in.next();
 
+        System.out.println(solution(str));
     }
 }
