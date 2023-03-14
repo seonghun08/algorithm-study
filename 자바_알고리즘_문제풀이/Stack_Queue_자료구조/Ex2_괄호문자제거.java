@@ -1,6 +1,7 @@
 package Stack_Queue_자료구조;
 
-import java.util.*;
+import java.util.Scanner;
+import java.util.Stack;
 
 public class Ex2_괄호문자제거 {
     public static String solution(String str) {
