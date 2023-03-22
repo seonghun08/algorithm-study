@@ -21,7 +21,7 @@ public class Ex3_후위식연산 {
         return st.get(0);
     }
 
-    public static void Ex3_후위식연산(String[] args) {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String str = in.next();
         System.out.println(solution(str));

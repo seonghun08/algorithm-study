@@ -20,7 +20,7 @@ public class Ex1_올바른괄호 {
     /**
      * (()(()))(())
      */
-    public static void Ex1_올바른괄호(String[] args) {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String str = in.next();
 

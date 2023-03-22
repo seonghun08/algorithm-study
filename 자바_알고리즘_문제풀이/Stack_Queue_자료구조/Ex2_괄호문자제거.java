@@ -34,7 +34,7 @@ public class Ex2_괄호문자제거 {
     /**
      * (A(BC)D)EF(G(H)(IJ)K)LM(N)
      */
-    public static void Ex2_괄호문자제거(String[] args) {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String str = in.next();
 
