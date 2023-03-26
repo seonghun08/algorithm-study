@@ -10,7 +10,7 @@ public class Ex3_삽입정렬 {
                 if (arr[t] > tmp) arr[t + 1] = arr[t];
                 else break;
             }
-            arr[t] = tmp;
+            arr[t + 1] = tmp;
         }
         return arr;
     }
