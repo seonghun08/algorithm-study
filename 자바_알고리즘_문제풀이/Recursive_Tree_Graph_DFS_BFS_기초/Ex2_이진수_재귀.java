@@ -2,17 +2,16 @@ package Recursive_Tree_Graph_DFS_BFS_기초;
 
 import java.util.Scanner;
 
-public class Ex1_재귀함수 {
+public class Ex2_이진수_재귀 {
     private void solution(int n) {
         if (n > 0) {
-            // System.out.print(n + " "); // n, n-1, n-2, ... n-(n-1)
-            solution(n - 1);
-            System.out.print(n + " ");  // n-(n-1), n-(n-2), ... n
+            solution(n / 2);
+            System.out.print(n % 2);
         }
     }
 
     public static void main(String[] args) {
-        Ex1_재귀함수 main = new Ex1_재귀함수();
+        Ex2_이진수_재귀 main = new Ex2_이진수_재귀();
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         main.solution(n);
