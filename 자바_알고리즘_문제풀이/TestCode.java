@@ -1,38 +1,27 @@
 import java.util.*;
 
 public class TestCode {
-
-    int[] dis = {1, -1, 5};
-    int[] ch;
-    Queue<Integer> Q = new LinkedList<>();
-    private int solution(int s, int e) {
-        ch = new int[10001];
-        ch[s] = 1;
-        Q.offer(s);
-        int level = 0;
-        while (!Q.isEmpty()) {
-            int len = Q.size();
-            for (int i = 0; i <len; i++) {
-                int x = Q.poll();
-                for (int m : dis) {
-                    int nx = x + m;
-                    if (nx == e) return ++level;
-                    if (nx >= 1 && nx <= 10000 && ch[nx] == 0) {
-                        ch[nx] = 1;
-                        Q.offer(nx);
-                    }
-                }
-            }
-            level++;
+    static int[] arr;
+    private int solution(int n) {
+        if (arr[n] > 0) {
+            return arr[n];
         }
-        return 0;
+
+        if (n == 1 || n == 2) {
+            return arr[n] = 1;
+        } else {
+            return arr[n] = solution(n - 2) + solution(n - 1);
+        }
     }
 
     public static void main(String[] args) throws Exception {
         TestCode main = new TestCode();
         Scanner in = new Scanner(System.in);
-        int s = in.nextInt();
-        int e = in.nextInt();
-        System.out.println(main.solution(s, e));
+        int n = in.nextInt();
+
+        arr = new int[n + 1];
+        main.solution(n);
+
+        for (int i = 1; i <= n; i++) System.out.print(arr[i] + " ");
     }
 }
