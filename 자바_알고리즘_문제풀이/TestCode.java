@@ -2,7 +2,7 @@ import java.util.*;
 
 public class TestCode {
     static int[] arr;
-    private int solution(int n) {
+    private static int solution(int n) {
         if (arr[n] > 0) {
             return arr[n];
         }
@@ -15,12 +15,11 @@ public class TestCode {
     }
 
     public static void main(String[] args) throws Exception {
-        TestCode main = new TestCode();
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
 
         arr = new int[n + 1];
-        main.solution(n);
+        solution(n);
 
         for (int i = 1; i <= n; i++) System.out.print(arr[i] + " ");
     }

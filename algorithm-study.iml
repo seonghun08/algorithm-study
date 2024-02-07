@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/백준" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/프로그래머스" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/자바_알고리즘_문제풀이" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/자바의정석" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

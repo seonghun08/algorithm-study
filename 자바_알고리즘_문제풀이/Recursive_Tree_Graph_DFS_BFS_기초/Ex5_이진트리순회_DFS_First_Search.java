@@ -12,6 +12,9 @@ class Node {
     }
 }
 
+/**
+ * 이진트리순회 원리 이해 (직접 그려보자)
+ */
 public class Ex5_이진트리순회_DFS_First_Search {
 
     Node root;
@@ -37,4 +40,3 @@ public class Ex5_이진트리순회_DFS_First_Search {
         tree.DFS(tree.root);
     }
 }
-
