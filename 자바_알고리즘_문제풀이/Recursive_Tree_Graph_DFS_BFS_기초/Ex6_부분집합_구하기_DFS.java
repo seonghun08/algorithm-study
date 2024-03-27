@@ -18,7 +18,7 @@ public class Ex6_부분집합_구하기_DFS {
             if (sb.length() > 0){
                 System.out.println(sb);
             }
-        } else {
+        } else { // 재귀
             ch[L] = 1;
             DFS(L + 1);
             ch[L] = 0;
