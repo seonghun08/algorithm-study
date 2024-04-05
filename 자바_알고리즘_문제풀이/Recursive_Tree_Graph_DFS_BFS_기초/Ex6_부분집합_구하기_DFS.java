@@ -1,5 +1,6 @@
 package Recursive_Tree_Graph_DFS_BFS_기초;
 
+import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class Ex6_부분집합_구하기_DFS {
@@ -8,6 +9,11 @@ public class Ex6_부분집합_구하기_DFS {
     static int[] ch;
 
     public static void DFS(int L) {
+
+
+        PriorityQueue<Integer> q = new PriorityQueue<>();
+
+
         if (L == n + 1) {
             StringBuffer sb = new StringBuffer();
             for (int i = 1; i <= n; i++) {
